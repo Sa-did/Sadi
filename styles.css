@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8e1f4;
+    overflow: hidden;
+}
+
+.birthday-wish {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.glow {
+    font-size: 4rem;
+    color: #ffcc00;
+    text-shadow: 0 0 20px #ffcc00, 0 0 30px #ff6699;
+    animation: glow-animation 1.5s infinite;
+}
+
+@keyframes glow-animation {
+    0% { text-shadow: 0 0 20px #ffcc00, 0 0 30px #ff6699; }
+    50% { text-shadow: 0 0 30px #ffcc00, 0 0 40px #ff6699; }
+    100% { text-shadow: 0 0 20px #ffcc00, 0 0 30px #ff6699; }
+}
+
+.balloons {
+    /* Add balloon styles here */
+}
+
+.confetti {
+    /* Add confetti styles here */
+}
+
+.cake {
+    cursor: pointer;
+}
+
+#next-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #ff6699;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#next-button:hover {
+    background-color: #ffcc00;
+}
+
+.love-letter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8e1f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.typewriter {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+}
+
+#special-gift-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #ff6699;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#special-gift-button:hover {
+    background-color: #ffcc00;
+}
+
+.video-surprise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8e1f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.final-message {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+#replay-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #ff6699;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#replay-button:hover {
+    background-color: #ffcc00;
+} 
